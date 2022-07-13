@@ -1,10 +1,14 @@
-import * as React from "react";
-
-const About = () => {
-    return (
-        <div>
-            <h1>This is an about page.</h1>
-        </div>
-    )
+// Step 1: Import React
+import * as React from 'react'
+import {Link} from 'gatsby'
+import Layout from '../components/layout'
+// Step 2: Define your component
+const AboutPage = () => {
+  return (
+    <Layout pageTitle='Pagina ABOUT' pageHeading='Titulo de la pagina about'>
+    <p>Texto de la pagina about, ingresado como Children</p>
+    </Layout>
+  )
 }
-export default About;
+// Step 3: Export your component
+export default AboutPage
