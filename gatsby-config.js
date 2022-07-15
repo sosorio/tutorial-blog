@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
     siteUrl: `https://www.yourdomain.tld`,
-  },
-  plugins: [],
+    title:"Primer sitio de Santiago con Gatsby"},
+  plugins: [`gatsby-plugin-image`, `gatsby-plugin-sharp`]
 }
