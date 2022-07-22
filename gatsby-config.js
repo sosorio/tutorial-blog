@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
-    title:"Primer sitio de Santiago con Gatsby"},
+    siteUrl: `https://www.floreshoy.com`,
+    title:"Flores a Domicilio",
+    description: 'Flores a domicilio en varios paises'},
+    
   plugins: [
     `gatsby-plugin-image`,
      `gatsby-plugin-sharp`,
@@ -12,5 +14,16 @@ module.exports = {
     }
   },
 `gatsby-plugin-mdx`,
-`gatsby-transformer-sharp`]
+`gatsby-transformer-sharp`,
+`gatsby-plugin-postcss`,
+//{resolve: `gatsby-plugin-google-fonts`,
+//      options: {
+  //      fonts: [
+    //      `Monserrat:300,400`,
+      //    `source sans pro:300,400,400i,700` // you can also specify font weights and styles
+        //],
+        //display: 'swap'
+    //  }
+  //  }
+  ]
 }

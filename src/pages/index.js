@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 const IndexPage = () => {
   return (
     <Layout pageTitle='Home' pageHeading='Titulo de la pagina de inicio'>
-      <p>Texto de la pagina de inicio, ingresado como Children</p>
+      <p class="text-8xl">Texto de la pagina de inicio, ingresado como Children</p>
     <StaticImage src="../images/cala.jpg"
      alt="A cala" />
      <StaticImage src="https://img.freepik.com/vector-premium/rosa-roja-hojas_23-2147502749.jpg"
