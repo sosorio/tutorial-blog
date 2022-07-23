@@ -16,14 +16,6 @@ module.exports = {
 `gatsby-plugin-mdx`,
 `gatsby-transformer-sharp`,
 `gatsby-plugin-postcss`,
-//{resolve: `gatsby-plugin-google-fonts`,
-//      options: {
-  //      fonts: [
-    //      `Monserrat:300,400`,
-      //    `source sans pro:300,400,400i,700` // you can also specify font weights and styles
-        //],
-        //display: 'swap'
-    //  }
-  //  }
+
   ]
 }
