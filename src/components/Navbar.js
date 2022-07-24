@@ -24,12 +24,11 @@ const Navbar = () => {
         <div onClick={handleNav} class="block md:hidden">
             {!nav ? 'X' : <StaticImage src="../images/bars-solid.svg"
      alt="Menu" height={50} />}
-          <div class={!nav ? "fixed left-0 top-0 w-[40%] h-full border-r border-r-gray-900 bg-white m-4 ease-in-out duration-500" 
+          <div class={!nav ? "fixed left-0 top-0 w-[50%] h-full border-r border-r-gray-900 bg-white m-4 ease-in-out duration-500" 
      : "fixed left-[-100%]"}>
      <h1 class="w-full text-3xl font-bold pb-4"><StaticImage src="../images/logo-floresHoy.png"
      alt="logo" height={40}  /> FloresHoy</h1>
-     <StaticImage src="../images/bars-solid.svg"
-     alt="Menu" height={50}  />
+     
         <ul class="pt-4">
         <li class="p-3 border-b">Cumpleaños</li>
                 <li class="p-3 border-b">Aniversario</li>
