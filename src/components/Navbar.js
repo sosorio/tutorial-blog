@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <div class="flex justify-between items-center text-2xl h-24 max-w-[1240px] mx-2 px-2" >
             <h1 class="w-full text-3xl font-bold valign"><StaticImage src="../images/logo-floresHoy.png"
-     alt="logo" height={40}  /> FloresHoy</h1>
+     alt="logo" height={40}  /> <span>Flores</span><span class="text-green-900">Hoy</span></h1>
             <ul class="hidden md:flex">
                 <li class="p-3">Cumpleaños</li>
                 <li class="p-3">Aniversario</li>
@@ -24,7 +24,7 @@ const Navbar = () => {
         <div onClick={handleNav} class="block md:hidden p-4">
             {!nav ? 'X' : <StaticImage src="../images/bars-solid.svg"
      alt="Menu" height={50} />}
-          <div class={!nav ? "fixed left-0 top-15 w-[100%] h-full border-r border-r-gray-900 bg-gray-100 m-4 ease-in-out duration-500" 
+          <div class={!nav ? "z-40 fixed left-0 top-15 w-[100%] h-full border-r border-r-gray-900 bg-gray-100 m-4 ease-in-out duration-500" 
      : "fixed left-[-100%]"}>
         <ul class="pt-4">
         <li class="pl-10 p-3 border-b">Cumpleaños</li>

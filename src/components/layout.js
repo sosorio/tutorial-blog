@@ -4,6 +4,7 @@ import * as React from 'react'
 import {container, heading, navLinks, navLinkItem, navLinkText, siteTitle} from './layout.module.css'
 import Footer from './Footer';
 import Navbar from './Navbar';
+import Products from './Products';
 
 // Step 2: Define your component
 
@@ -21,6 +22,7 @@ const Layout  = ({pageTitle,pageHeading,children}) => {
   return (
     <container>
     <Navbar/>
+    <Products/>
     <main className={container}>
         <title>{pageTitle} | {data.site.siteMetadata.title}</title>
         <p className={siteTitle}>{data.site.siteMetadata.title}</p>
